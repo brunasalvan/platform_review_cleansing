@@ -1,4 +1,12 @@
-<details><summary><h1>Português | pt-br </h1></summary>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  
+  <details><summary><h1>Português | pt-br </h1></summary>
 
   Tratamento do flood de comentários nas avaliações dos estabelecimentos do mapa Bar de Respeito visando manter a credibilidade da plataforma após um grande    número de acessos repentinos
 
@@ -89,6 +97,8 @@ Managing comment flood on establishment reviews in the bar de respeito map to ma
   <h3>Final Conclusions</h3>
   <ul>
     <li>More than 30,000 reviews were removed after filtering</li>
+
+</body>
     <li>Discuss ways to prevent uncontrolled account creation by adding new verification steps in registration</li>
     <li>Create limitations on review submissions, such as a minimum character count</li>
   </ul>
