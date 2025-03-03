@@ -45,3 +45,51 @@
     <li>Criar limitações no envio de reviews, como mínimo de caracteres</li>
   </ul>
 </details>
+
+<details><summary><h1>English | en </h1></summary>
+
+Managing comment flood on establishment reviews in the bar de respeito map to maintain platform trustworthiness after a traffic surge
+    
+  <h3>Objective</h3>
+    
+  <p>Develop strategies for cleaning establishment reviews and structure queries to perform database deletions.</p>
+    
+  <h3>Tools</h3>
+    
+  <p>&bull; PostgreSQL &bull;</p>
+    
+  <h3>Problem</h3>
+  <ul>
+      <li>What types of comments are pertinent in reviews?</li>
+      <li>What is the pattern for non-pertinent comments?</li>
+      <li>What characterizes a comment originating from a flood?</li>
+      <li>Which period will be considered for deletion?</li>
+  </ul>
+    
+  <h3>Procedures</h3>
+  <ul>
+    <li>Exploratory analysis of comments using SELECT</li>
+    <li>Structuring of queries</li>
+    <li>Measurement of results and future impact on map reviews</li>
+    <li>Application in the test environment</li>
+    <li>Comparison with the real environment</li>
+    <li>Verification of improvements and optimizations of queries</li>
+    <li>Application in the real environment</li>
+  </ul>
+    
+  <h3>Defined Strategies</h3>
+  <ul>
+    <li>Users with comments starting with three consonants</li>
+    <li>Users who posted comments with three or fewer characters</li>
+    <li>Users who selected "not informed/other" in two registration steps</li>
+    <li>Users who posted comments containing only consonants</li>
+    <li>Users whose "name" data starts with three consecutive consonants</li>
+  </ul>
+    
+  <h3>Final Conclusions</h3>
+  <ul>
+    <li>More than 30,000 reviews were removed after filtering</li>
+    <li>Discuss ways to prevent uncontrolled account creation by adding new verification steps in registration</li>
+    <li>Create limitations on review submissions, such as a minimum character count</li>
+  </ul>
+</details>
